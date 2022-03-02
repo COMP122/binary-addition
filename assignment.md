@@ -50,7 +50,7 @@ Show your work by following the example.
    1. 2# 0110           
       - 1 x 2^2 = 4    <!-- response -->
       - 1 x 2^1 = 2    <!-- response -->
-      - answer: 8      <!-- response -->
+      - answer: 6      <!-- response -->
 
    1. 2# 1100          <!-- response: 1100 -->
       -                <!-- response -->
