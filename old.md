@@ -48,11 +48,9 @@ Provide the values of the CPU's status bits after the each of the following addi
 Show your work by following the example.
 
    1. 2# 0110           
-      - 0 x 2^3 = 0    <!-- response -->
       - 1 x 2^2 = 4    <!-- response -->
       - 1 x 2^1 = 2    <!-- response -->
-      - 0 x 2^0 = 0    <!-- response -->
-      - sum: 6      <!-- response -->
+      - answer: 6      <!-- response -->
 
    1. 2# 1100          <!-- response: 1100 -->
       -                <!-- response -->
@@ -80,7 +78,7 @@ Solve the following addition problems using BCD arithmetic. Show your work by mo
 
 1. 325 + 1444                           <!-- response: BCD: 325 + 1444 -->
    ```
-   x xxxc   x xxxc   x xxxc   x xxxx    <!-- response: carries -->
+   x xxxx   x xxxx   x xxxx   x xxxx    <!-- response: carries -->
      xxxx     xxxx     xxxx     xxxx    <!-- response: op1 encoding -->
    + xxxx     xxxx     xxxx     xxxx    <!-- response: op2 encoding -->
    ------    -----    -----    -----
@@ -90,12 +88,12 @@ Solve the following addition problems using BCD arithmetic. Show your work by mo
    y yyyy   y yyyy   y yyyy   y yyyy    <!-- response: sum encoding -->
    + 0xx0     0xx0     0xx0     0xx0    <!-- response: corrective step -->
    - ----    -----    -----    -----
-   c xxxx   c xxxx   c xxxx   c xxxx    <!-- response: final sum -->
+   x xxxx     xxxx     xxxx     xxxx    <!-- response: final sum -->
    ```
 
 1. 3225 + 1816                          <!-- response: BCD: 3225 + 1816  -->
    ```
-   x xxxc   x xxxc   x xxxc   x xxxx    <!-- response: carries -->
+   x xxxx   x xxxx   x xxxx   x xxxx    <!-- response: carries -->
      xxxx     xxxx     xxxx     xxxx    <!-- response: op1 encoding -->
    + xxxx     xxxx     xxxx     xxxx    <!-- response: op2 encoding -->
    ------    -----    -----    -----
@@ -105,7 +103,7 @@ Solve the following addition problems using BCD arithmetic. Show your work by mo
    y yyyy   y yyyy   y yyyy   y yyyy    <!-- response: sum encoding -->
    + 0xx0     0xx0     0xx0     0xx0    <!-- response: corrective step -->
    - ----    -----    -----    -----
-   c xxxx   c xxxx   c xxxx   c xxxx    <!-- response: final sum -->
+   x xxxx     xxxx     xxxx     xxxx    <!-- response: final sum -->
    ```
 
 ### BCD Encoding:
